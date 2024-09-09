@@ -1,7 +1,7 @@
 {
     "name": "inversify-number-mapper",
-    "version": "1.0.0",
-    "description": "string mapper definitions",
+    "version": "1.0.1",
+    "description": "number mapper definitions",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "files": [

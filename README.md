@@ -1,6 +1,6 @@
 # inversify-number-mapper
 
-inversify string mapper utility
+inversify number mapper utility
 
 ## install dependencies
 
@@ -68,7 +68,7 @@ import { NUMBER_MAPPER_TYPE, NumberMapperInterface } from "inversify-number-mapp
 ...
 
   @inject(NUMBER_MAPPER_TYPE.NumberMapper)
-  private readonly stringMapper: NumberMapperInterface
+  private readonly numberMapper: NumberMapperInterface
 ```
 
 Use the mapper.
@@ -76,11 +76,11 @@ Use the mapper.
 ```javascript
 
 ...
-  stringMapper.mapper('value'); // return 0
-  stringMapper.mapper(null); // return 0
-  stringMapper.mapper(null, 10); // return 10
-  stringMapper.mapper(' 5 '); // return 5
-  stringMapper.mapper(5); // return 5
+  numberMapper.mapper('value'); // return 0
+  numberMapper.mapper(null); // return 0
+  numberMapper.mapper(null, 10); // return 10
+  numberMapper.mapper(' 5 '); // return 5
+  numberMapper.mapper(5); // return 5
 ...
 
 ```
