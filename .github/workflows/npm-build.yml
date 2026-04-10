@@ -13,6 +13,6 @@ jobs:
   ci:
     uses: yadickson/workflows/.github/workflows/integration.yml@v1
     with: 
-      container-image: node:22-slim
+      container-image: node:22-alpine
     secrets: inherit
 
